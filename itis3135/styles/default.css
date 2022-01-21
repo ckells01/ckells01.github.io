@@ -12,8 +12,14 @@ header
   color: silver;
 }
 
-footer{
+footer
+{
   font-family: Tahoma, sans-serif;
   text-align: center;
   color: silver;
+}
+
+h2
+{
+  text-align: center;
 }
