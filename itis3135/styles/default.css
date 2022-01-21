@@ -1,19 +1,18 @@
 body
 {
-  font-family: Tahoma, sans-serif;
+  font-family: Rajdhani, sans-serif;
   color: silver;
-  background-color: #e63946;
+  background-color: grey;
 }
 
 header
 {
   font-family: Courier, serif;
   text-align: center;
-  color: silver;
+  color: #e63946;
 }
 
-footer
-{
+footer{
   font-family: Tahoma, sans-serif;
   text-align: center;
   color: silver;
@@ -21,5 +20,5 @@ footer
 
 h2
 {
-  text-align: center;
+    text-align: center;
 }
