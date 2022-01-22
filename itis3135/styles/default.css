@@ -25,6 +25,6 @@ h2
 
 figure{
   text-align: center;
-  height: 50
+  align-items: center;
+  height: 50;
 }
-
