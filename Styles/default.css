@@ -1,0 +1,19 @@
+body
+{
+  font-family: Courier, sans-serif;
+  color: silver;
+  background-color: grey;
+}
+
+header
+{
+  font-family: Courier, serif;
+  text-align: center;
+  color: #e63946;
+}
+
+footer{
+  font-family: Courier, serif;
+  text-align: center;
+  color: silver;
+}
