@@ -1,6 +1,6 @@
 body
 {
-  font-family: Rajdhani, sans-serif;
+  font-family: Courier, sans-serif;
   color: silver;
   background-color: grey;
 }
@@ -13,12 +13,16 @@ header
 }
 
 footer{
-  font-family: Tahoma, sans-serif;
+  font-family: Courier, serif;
   text-align: center;
   color: silver;
 }
 
 h2
 {
-    text-align: center;
+  text-align: center;
+}
+
+figure{
+  text-align: center;
 }
