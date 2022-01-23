@@ -9,7 +9,8 @@ header
 {
   font-family: Courier, serif;
   text-align: center;
-  color: #e63946;
+  color: gold;
+  /* red = #e63946 */  
 }
 
 footer{
