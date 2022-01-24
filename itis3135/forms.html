@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang = "en-US">
+    
     <head>
-
         <meta charset = "utf-8" />
         <title>
-            🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon Course Contract 🐉
+            🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon Forms 🐉
         </title>
         <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
-
     </head>
 
     <body>
@@ -27,23 +26,33 @@
 
         <main>
             <h2>
-                Contract Page
+                Forms Page
             </h2>
-            <p>
-                I, <a href="https://webpages.charlotte.edu/ckells/itis3135/introduction.html">Connor P. Kells</a>, agree to abide by the terms of the course contract in my Spring 2022, ITIS 3155: Web App Design and Development class with my instructor, Professor D.I. von Briesen.
-            </p>
-            <p>
-                I understand that all work that I do on publicly available online tools will be available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
-            </p>
-            <p>
-                I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.
-            </p>
-            <p>
-                I also understand that given the structure and content of this class it’s possible to find many examples online or even view my classmates’ code directly. I swear that I will only use these resources to learn, and will not cut and paste code except where i have properly given credit (i.e. external libraries) and never from my classmates.
-            </p>
-            <p>
-                Signed: <em>Connor P. Kells, 21/01/2022</em>
-            </p>
+            <form>
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name"><br />
+                <label for="phonenumber">Phone Number:</label><br />
+                <input type="text" id="phonenumber" phonenumber="phonenumber"><br />
+                <label for="emailaddress">Email Address:</label><br />
+                <input type="text" id="emailaddress" emailaddress="emailaddress"><br />
+                <br />
+                <p>
+                  Have you used our website before?
+                </p>
+                <input type="radio" id="yes" name="used_before">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="used_before">
+                <label for="no">No</label><br>
+                <p>
+                  Which of these coding languages have you used before?
+                </p>
+                <input type="checkbox" id="Java" name="java">
+                <label for="java">Java</label><br>
+                <input type="checkbox" id="C" name="C">
+                <label for="C">C</label><br>
+                <input type="Python" id="Python" name="Python">
+                <label for="python">Python</label><br>
+              </form>
         </main>
 
         <footer>
