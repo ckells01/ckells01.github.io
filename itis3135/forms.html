@@ -1,111 +1,113 @@
 <!DOCTYPE html>
-<html lang = "en-US">
-    
-    <head>
-        <meta charset = "utf-8" />
-        <title>
-            🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon Forms 🐉
-        </title>
-        <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
-    </head>
+<html lang="en-US">
 
-    <body>
-        <header>
-            <h1>
-                🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon 🐉
-            </h1>
-            <nav>
-                <a href = "./">Home</a> 🐉
-                <a href = "introduction.html">Introduction</a> 🐉
-                <a href = "contract.html">Contract</a> 🐉
-                <a href = "tables.html">Tables</a> 🐉
-                <a href = "forms.html">Forms</a> 🐉
-                <a href="https://webpages.charlotte.edu/ckells/">Charlotte Homepage</a> 🐉
-            </nav>
-        </header>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon Forms 🐉
+    </title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+  </head>
 
-        <main>
-            <h2>
-                Forms Page
-            </h2>
-            <form>
-              <label for="name">Name:</label><br />
-              <input type="text" id="name" name="name"><br />
-              <label for="phonenumber">Phone Number:</label><br />
-              <input type="text" id="phonenumber" phonenumber="phonenumber"><br />
-              <label for="emailaddress">Email Address:</label><br />
-              <input type="text" id="emailaddress" emailaddress="emailaddress"><br />
-              <br />
-              <p>
-                Have you used our website before?
-              </p>
-              <input type="radio" id="yes" name="used_before">
-              <label for="yes">Yes</label><br>
-              <input type="radio" id="no" name="used_before">
-              <label for="no">No</label><br>
-              <p>
-                Which of these coding languages have you used before?
-              </p>
-              <input type="checkbox" id="javascript" name="javascript">
-              <label for="javascript">JavaScript</label><br>
-              <input type="checkbox" id="java" name="java">
-              <label for="java">Java</label><br>
-              <input type="checkbox" id="c" name="c">
-              <label for="c">C</label><br>
-              <input type="checkbox" id="c++" name="c++">
-              <label for="c++">C++</label><br>
-              <input type="checkbox" id="c#" name="c#">
-              <label for="c#">C#</label><br>
-              <input type="checkbox" id="python" name="python">
-              <label for="python">Python</label><br>
-              <input type="checkbox" id="sql" name="sql">
-              <label for="sql">SQL</label><br>
-              <input type="checkbox" id="css" name="css">
-              <label for="css">CSS</label><br>
-              <input type="checkbox" id="html" name="html">
-              <label for="html">HTML</label><br>
-              <p>
-                Which of these coding languages is your favorite?
-              </p>
-              <label for="languages">Choose a language:</label>
-              <select id="languages" name="languages">
-                <option>JavaScript</option>
-                <option>Java</option>
-                <option>C</option>
-                <option>C++</option>
-                <option>C#</option>
-                <option>Python</option>
-                <option>SQL</option>
-                <option>CSS</option>
-                <option>HTML</option>
-              </select>
-            </form>
-        </main>
+  <body>
+    <header>
+      <h1>
+        🐉 Connor Kells 🐉 ITIS 3135 🐉 Charcoal Komodo Dragon 🐉
+      </h1>
+      <nav>
+        <a href="./">Home</a> 🐉
+        <a href="introduction.html">Introduction</a> 🐉
+        <a href="contract.html">Contract</a> 🐉
+        <a href="tables.html">Tables</a> 🐉
+        <a href="forms.html">Forms</a> 🐉
+        <a href="https://webpages.charlotte.edu/ckells/">Charlotte Homepage</a> 🐉
+      </nav>
+    </header>
 
-        <footer>
-            <nav>
-                <a href="https://webpages.charlotte.edu/ckells/">Charlotte.edu</a> 🐉
-                <a href="https://github.com/ckells01/ckells01.github.io">Github</a> 🐉
-                <a href="https://ckells01.github.io/itis3135/">Github.io</a> 🐉
-                <a href="https://www.freecodecamp.org/Ckells">freeCodeCamp</a> 🐉
-                <a href="https://www.codecademy.com/profiles/ckellsUNCC">Codecademy</a> 🐉
-                <a href="https://jsfiddle.net/user/ConnorKells/fiddles/">JSFiddle</a> 🐉
-                <a href="https://www.linkedin.com/in/connorkells/">LinkedIn</a> 🐉
-            </nav>
-            <br />
-            Created by Kells Designs Inc &copy;2022.
-            <br />
-            <p>
-              <a href="https://validator.w3.org/check?uri=referer" style = "text-decoration: none;">
-                <img src="images/button_validation_html5.gif" width="88" height="31" alt="Link to HTML validator">
-              </a>
-      
-              <a href="https://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;">
-                <img src="images/button_validation_css.gif" width="88" height="31" alt="Link to CSS validator">
-              </a>
-            </p>
-        </footer>
+    <main>
+      <h2>
+        Forms Page
+      </h2>
+      <form action="#">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br />
+        <label for="phonenumber">Phone Number:</label><br />
+        <input type="tel" id="phonenumber" name="phonenumber" required placeholder="Enter a valid phone number"><br />
+        <label for="emailaddress">Email Address:</label><br />
+        <input type="email" id="emailaddress" name="emailaddress" required placeholder="Enter a valid email address"><br />
+        <p>
+          Have you used our website before?
+        </p>
+        <input type="radio" id="yes" name="used_site_before">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="used_site_before">
+        <label for="no">No</label><br>
+        <p>
+          Which of these coding languages have you used before?
+        </p>
+        <input type="checkbox" id="javascript" name="used_language_before">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="java" name="used_language_before">
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="c" name="used_language_before">
+        <label for="c">C</label><br>
+        <input type="checkbox" id="c++" name="used_language_before">
+        <label for="c++">C++</label><br>
+        <input type="checkbox" id="c#" name="used_language_before">
+        <label for="c#">C#</label><br>
+        <input type="checkbox" id="python" name="used_language_before">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="sql" name="used_language_before">
+        <label for="sql">SQL</label><br>
+        <input type="checkbox" id="css" name="used_language_before">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="html" name="used_language_before">
+        <label for="html">HTML</label><br>
+        <p>
+          Which of these coding languages is your favorite?
+        </p>
+        <label for="languages">Choose a language:</label>
+        <select id="languages" name="languages" required>
+          <option>JavaScript</option>
+          <option>Java</option>
+          <option>C</option>
+          <option>C++</option>
+          <option>C#</option>
+          <option>Python</option>
+          <option>SQL</option>
+          <option>CSS</option>
+          <option>HTML</option>
+        </select>
+        <br /><br />
+        <input type="reset">
+        <input type="submit">
+      </form>
+    </main><br />
 
-    </body>
+    <footer>
+      <nav>
+        <a href="https://webpages.charlotte.edu/ckells/">Charlotte.edu</a> 🐉
+        <a href="https://github.com/ckells01/ckells01.github.io">Github</a> 🐉
+        <a href="https://ckells01.github.io/itis3135/">Github.io</a> 🐉
+        <a href="https://www.freecodecamp.org/Ckells">freeCodeCamp</a> 🐉
+        <a href="https://www.codecademy.com/profiles/ckellsUNCC">Codecademy</a> 🐉
+        <a href="https://jsfiddle.net/user/ConnorKells/fiddles/">JSFiddle</a> 🐉
+        <a href="https://www.linkedin.com/in/connorkells/">LinkedIn</a> 🐉
+      </nav>
+      <br />
+      Created by Kells Designs Inc &copy;2022.
+      <br />
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none;">
+          <img src="images/button_validation_html5.gif" width="88" height="31" alt="Link to HTML validator">
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" style="text-decoration: none;">
+          <img src="images/button_validation_css.gif" width="88" height="31" alt="Link to CSS validator">
+        </a>
+      </p>
+    </footer>
+
+  </body>
 
 </html>
