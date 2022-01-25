@@ -27,3 +27,15 @@ h2
 figure{
   text-align: center;
 }
+
+.reset_button
+{
+    background-color: red;
+    color: gold;
+}
+
+.submit_button
+{
+    background-color: green;
+    color: gold;
+}
