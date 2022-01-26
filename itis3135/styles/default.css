@@ -53,3 +53,8 @@ p
 main{
   color: gold;
 }
+
+td
+{
+  text-align: center;
+}
