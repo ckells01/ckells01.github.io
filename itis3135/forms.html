@@ -39,31 +39,31 @@
         
         <label for="used_site_before" class="used_site_before" required>Have you used our website before?</label>
         <br><br>
-        <input type="radio" id="yes" name="used_site_before">
+        <input type="radio" id="yes" value="yes" name="used_site_before">
         <label for="yes">Yes</label><br>
-        <input type="radio" id="no" name="used_site_before">
+        <input type="radio" id="no" value="no" name="used_site_before">
         <label for="no">No</label><br>
         <br>
 
-        <label for="used_language_before" class="used_language_before" required>Which of these coding languages have you used before?</label><br>
-        <br>
-        <input type="checkbox" id="javascript" name="used_language_before">
+        <label for="used_language_before" class="used_language_before" required>Which of these coding languages have you used before?</label>
+        <br><br>
+        <input type="checkbox" id="javascript" value="javascript" name="used_language_before">
         <label for="javascript">JavaScript</label><br>
-        <input type="checkbox" id="java" name="used_language_before">
+        <input type="checkbox" id="java" value="java" name="used_language_before">
         <label for="java">Java</label><br>
-        <input type="checkbox" id="c" name="used_language_before">
+        <input type="checkbox" id="c" value="c" name="used_language_before">
         <label for="c">C</label><br>
-        <input type="checkbox" id="c++" name="used_language_before">
+        <input type="checkbox" id="c++" value="c++" name="used_language_before">
         <label for="c++">C++</label><br>
-        <input type="checkbox" id="c#" name="used_language_before">
+        <input type="checkbox" id="c#" value="c#" name="used_language_before">
         <label for="c#">C#</label><br>
-        <input type="checkbox" id="python" name="used_language_before">
+        <input type="checkbox" id="python" value="python" name="used_language_before">
         <label for="python">Python</label><br>
-        <input type="checkbox" id="sql" name="used_language_before">
+        <input type="checkbox" id="sql" value="sql" name="used_language_before">
         <label for="sql">SQL</label><br>
-        <input type="checkbox" id="css" name="used_language_before">
+        <input type="checkbox" id="css" value="css" name="used_language_before">
         <label for="css">CSS</label><br>
-        <input type="checkbox" id="html" name="used_language_before">
+        <input type="checkbox" id="html" value="html" name="used_language_before">
         <label for="html">HTML</label><br>
         <br>
 
@@ -71,16 +71,16 @@
         <br><br>
         <label for="languages" class="lan_select" required>Choose a language:</label>
         <select id="languages" name="languages" required>
-          <option value="">None</option>
-          <option>JavaScript</option>
-          <option>Java</option>
-          <option>C</option>
-          <option>C++</option>
-          <option>C#</option>
-          <option>Python</option>
-          <option>SQL</option>
-          <option>CSS</option>
-          <option>HTML</option>
+          <option value="none">None</option>
+          <option value="javascript">JavaScript</option>
+          <option value="java">Java</option>
+          <option value="c">C</option>
+          <option value="c++">C++</option>
+          <option value="c#">C#</option>
+          <option value="python">Python</option>
+          <option value="sql">SQL</option>
+          <option value="css">CSS</option>
+          <option value="html">HTML</option>
         </select>
         <br><br>
         <input type="reset" class="reset_button">
