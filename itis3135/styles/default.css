@@ -45,7 +45,7 @@ p
   color: gold;
 }
 
-.lan_select
+.lan_select, .used_language_before, .used_site_before
 {
   color: gold;
 }
