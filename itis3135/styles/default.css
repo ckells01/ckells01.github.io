@@ -43,11 +43,6 @@ main{
   color: gold;
 }
 
-td
-{
-  text-align: center;
-}
-
 .green_text
 {
   color: rgb(71, 226, 71);
@@ -63,4 +58,8 @@ select
 {
   border: 3px solid gold;
   border-radius: 4px;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
