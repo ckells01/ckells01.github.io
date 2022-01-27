@@ -88,3 +88,15 @@ figure{
   display: table;
   padding-left: 0px;
 }
+
+link {
+  color: rgb(71, 226, 71);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.visited {
+  color: rgb(71, 226, 71);
+  background-color: transparent;
+  text-decoration: none;
+}
