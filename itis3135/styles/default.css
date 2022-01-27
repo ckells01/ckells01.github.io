@@ -30,14 +30,12 @@ figure{
 .reset_button
 {
     background-color: red;
-    color: gold;
     border-radius: 15px;
 }
 
 .submit_button
 {
     background-color: rgb(71, 226, 71);
-    color: gold;
     border-radius: 15px;
 }
 
