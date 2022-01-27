@@ -61,7 +61,8 @@ select
   border-radius: 4px;
 }
 
-table, th, td {
+table, th, td 
+{
   border: 1px solid black;
 }
 
@@ -69,11 +70,18 @@ figure{
   text-align: left;
 }
 
-.table_centered {
+.table_centered 
+{
   margin-left: auto;
   margin-right: auto;
 }
 
-.text_centered{
+.text_centered
+{
+  text-align: center;
+}
+
+.div_centered
+{
   text-align: center;
 }
