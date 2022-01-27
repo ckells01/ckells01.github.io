@@ -9,8 +9,7 @@ header
 {
   font-family: Courier, serif;
   text-align: center;
-  color: gold;
-  /* red = #e63946 */  
+  color: gold; 
 }
 
 footer{
@@ -40,16 +39,6 @@ figure{
     color: gold;
 }
 
-p
-{
-  color: gold;
-}
-
-.lan_select, .used_language_before, .used_site_before
-{
-  color: gold;
-}
-
 main{
   color: gold;
 }
@@ -57,4 +46,9 @@ main{
 td
 {
   text-align: center;
+}
+
+.green_text
+{
+  color: rgb(71, 226, 71);
 }
