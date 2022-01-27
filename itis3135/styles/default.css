@@ -80,3 +80,9 @@ figure{
 {
   text-align: center;
 }
+
+.centered_div
+{
+  margin-left: auto;
+  margin-right: auto;
+}
