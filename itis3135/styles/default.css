@@ -68,3 +68,12 @@ table, th, td {
 figure{
   text-align: left;
 }
+
+.table_centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_centered{
+  text-align: center;
+}
