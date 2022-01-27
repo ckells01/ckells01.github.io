@@ -31,12 +31,14 @@ figure{
 {
     background-color: red;
     color: gold;
+    border-radius: 15px;
 }
 
 .submit_button
 {
-    background-color: green;
+    background-color: rgb(71, 226, 71);
     color: gold;
+    border-radius: 15px;
 }
 
 main{
@@ -51,4 +53,10 @@ td
 .green_text
 {
   color: rgb(71, 226, 71);
+}
+
+select 
+{  
+  border-radius: 4px;
+  background-color: gold;
 }
