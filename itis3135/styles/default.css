@@ -88,3 +88,8 @@ figure{
   display: table;
   padding-left: 0px;
 }
+
+a 
+{
+  color: rgb(71, 226, 71);
+}
