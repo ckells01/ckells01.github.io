@@ -23,7 +23,8 @@ h2
   text-align: center;
 }
 
-figure{
+.bolt_pic
+{
   text-align: center;
 }
 
@@ -62,4 +63,8 @@ select
 
 table, th, td {
   border: 1px solid black;
+}
+
+figure{
+  text-align: left;
 }
