@@ -3,6 +3,8 @@ body
   font-family: Courier, sans-serif;
   color: silver;
   background-color: rgb(68, 66, 66);
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 header
@@ -10,12 +12,14 @@ header
   font-family: Courier, serif;
   text-align: center;
   color: gold; 
+  margin-top: 40px;
 }
 
 footer{
   font-family: Courier, serif;
   text-align: center;
   color: silver;
+  margin-bottom: 40px;
 }
 
 h2
@@ -93,6 +97,11 @@ a
 {
   color: rgb(71, 226, 71);
   text-decoration: none;
+}
+
+a:hover{
+  color: rgb(71, 226, 71);
+  text-decoration: underline;
 }
 
 table tr:nth-child(even)
