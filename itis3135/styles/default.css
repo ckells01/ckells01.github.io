@@ -100,3 +100,8 @@ table tr:nth-child(even)
 	background-color: #777;
 	color: #fff;
 }
+
+th
+{
+  background-color: black;
+}
