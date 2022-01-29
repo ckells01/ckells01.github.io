@@ -1,6 +1,6 @@
 body
 {
-  font-family: Courier, sans-serif;
+  font-family: Courier, serif;
   color: silver;
   background-color: rgb(68, 66, 66);
   margin-left: 100px;
@@ -9,7 +9,7 @@ body
 
 header
 {
-  font-family: Courier, serif;
+  font-family: Courier, sans-serif;
   text-align: center;
   color: gold; 
   margin-top: 40px;
@@ -44,7 +44,8 @@ h2
   border-radius: 15px;
 }
 
-main{
+main
+{
   color: gold;
 }
 
