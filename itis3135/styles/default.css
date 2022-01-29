@@ -15,7 +15,8 @@ header
   margin-top: 40px;
 }
 
-footer{
+footer
+{
   font-family: Courier, serif;
   text-align: center;
   color: silver;
@@ -71,7 +72,8 @@ table, th, td
   border: 1px solid black;
 }
 
-figure{
+figure
+{
   text-align: left;
 }
 
@@ -100,7 +102,8 @@ a
   text-decoration: none;
 }
 
-a:hover{
+a:hover
+{
   color: rgb(71, 226, 71);
   text-decoration: underline;
 }
