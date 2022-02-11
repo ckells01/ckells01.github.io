@@ -7,9 +7,6 @@ function welcome()
 {
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
-    
-    document.getElementById("output").innerHTML = name;
-
-
-
+    let fullwelcome = "The Charcoal Komodo Dragon welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
+    document.getElementById("output").innerHTML = fullwelcome;
 }
