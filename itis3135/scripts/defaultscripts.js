@@ -43,9 +43,14 @@ function aveageDragonAge()
 
     averageAge = parseInt(total/3);
 
-    document.write("<h1>The Komodo Dragon Age App</h1>"); 
+    alert("Age 1 = " + age1 + "<br>" + 
+        "Age 2 = " + age2 + "<br>" + 
+        "Age 3 = " + age3 + "<br><br>" + 
+        "Average Komodo Dragon Age = " + averageAge + "<br><br>");
+
+    /** document.write("<h1>The Komodo Dragon Age App</h1>"); 
     document.write("Age 1 = " + age1 + "<br>" + 
         "Age 2 = " + age2 + "<br>" + 
         "Age 3 = " + age3 + "<br><br>" + 
-        "Average Komodo Dragon Age = " + averageAge + "<br><br>"); 
+        "Average Komodo Dragon Age = " + averageAge + "<br><br>"); **/
 }
