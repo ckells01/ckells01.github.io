@@ -29,14 +29,14 @@ function aveageDragonAge()
     var total = 0; 
 
     entry = prompt("Enter Komodo Dragon Age 1"); 
-    var age1 = entry; 
-    total = total + age1; 
+    var size1 = entry; 
+    total = total + size1; 
     entry = prompt("Enter Komodo Dragon Age 2"); 
-    var age2 = entry; 
-    total = total + age2; 
+    var size2 = entry; 
+    total = total + size2; 
     entry = prompt("Enter Komodo Dragon Age 3"); 
-    var age3 = entry; 
-    total = total + age3; 
+    var size3 = entry; 
+    total = total + size3; 
     
     averageAge = (total/3);
     alert("Average Komodo Dragon Age = " + averageAge);
@@ -87,4 +87,27 @@ function dragonWeightInPounds()
     var weightInOz = entry;    
     WeightInLbs = weightInOz/16;
     alert("Komodo Dragon Weight in Pounds = " + WeightInLbs + " Lbs");
+}
+
+function aveageDragonSizeInches()
+{
+    var entry; 
+    var averageSizeInches; 
+    var total = 0; 
+
+    entry = prompt("Enter Komodo Dragon 1's size in inches"); 
+    var size1 = entry; 
+    total = total + size1; 
+    entry = prompt("Enter Komodo Dragon 2's size in inches"); 
+    var size2 = entry; 
+    total = total + size2; 
+    entry = prompt("Enter Komodo Dragon 3's size in inches"); 
+    var size3 = entry; 
+    total = total + size3;
+    entry = prompt("Enter Komodo Dragon 4's size in inches"); 
+    var size4 = entry; 
+    total = total + size4; 
+    
+    averageSizeInches = (total/4);
+    alert("Average Komodo Dragon Size = " + averageSizeInches + " Inches");
 }
