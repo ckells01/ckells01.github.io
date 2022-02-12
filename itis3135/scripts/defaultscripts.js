@@ -28,22 +28,17 @@ function aveageDragonAge()
     var averageAge; 
     var total = 0; 
 
-    entry = prompt("Enter Komodo Dragon Age"); 
-    // entry = parseInt(entry); 
+    entry = prompt("Enter Komodo Dragon Age 1"); 
     var age1 = entry; 
     total = total + age1; 
-    entry = prompt("Enter Komodo Dragon Age"); 
-   // entry = parseInt(entry); 
+    entry = prompt("Enter Komodo Dragon Age 2"); 
     var age2 = entry; 
     total = total + age2; 
-    entry = prompt("Enter Komodo Dragon Age"); 
-    // entry = parseInt(entry); 
+    entry = prompt("Enter Komodo Dragon Age 3"); 
     var age3 = entry; 
     total = total + age3; 
     
     averageAge = (total/3);
-    // averageAge = parseInt(total/3);
-
     alert("Average Komodo Dragon Age = " + averageAge);
 }
 
@@ -79,13 +74,8 @@ function dragonFoodCost()
 {
     var numberDragons = prompt("Enter the number of Komodo Dragons"); 
     numberDragons = parseFloat(numberDragons);
-
     var foodPerDragon = prompt("Enter the number of pounds of food each Komodo Dragon needs"); 
-    // foodPerDragon = parseFloat(foodPerDragon);
-
     var costPerPound = prompt("Enter the price of a pound of Komodo Dragon food"); 
-    // costPerPound = parseFloat(costPerPound);
-
     var totalCost = numberDragons * foodPerDragon * costPerPound;  
-    alert("Cos of Komodo Dragon Food = " + totalCost); 
+    alert("Cost of Komodo Dragon Food = $" + totalCost); 
 }
