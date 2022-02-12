@@ -15,11 +15,11 @@ function dragonsPerEnclosure()
 {
     var numberDragons = prompt("Enter the number of Komodo Dragons"); 
     numberDragons = parseFloat(numberDragons); 
-    var numberEnclosures = prompt("Enter the number of enclosures"); 
-    numberEnclosures = parseFloat(numberEnclosures); 
-    var dpe = numberDragons/numberEnclosures; 
+    var foodPerDragon = prompt("Enter the number of enclosures"); 
+    foodPerDragon = parseFloat(foodPerDragon); 
+    var dpe = numberDragons/foodPerDragon; 
     dpe = parseInt(dpe); 
-    alert("Dragons Per Enclosure = " + dpe); 
+    alert("Komodo Dragons Per Enclosure = " + dpe); 
 }
 
 function aveageDragonAge()
@@ -29,19 +29,20 @@ function aveageDragonAge()
     var total = 0; 
 
     entry = prompt("Enter Komodo Dragon Age"); 
-    entry = parseInt(entry); 
+    // entry = parseInt(entry); 
     var age1 = entry; 
     total = total + age1; 
     entry = prompt("Enter Komodo Dragon Age"); 
-    entry = parseInt(entry); 
+   // entry = parseInt(entry); 
     var age2 = entry; 
     total = total + age2; 
     entry = prompt("Enter Komodo Dragon Age"); 
-    entry = parseInt(entry); 
+    // entry = parseInt(entry); 
     var age3 = entry; 
     total = total + age3; 
-
-    averageAge = parseInt(total/3);
+    
+    averageAge = (total/3);
+    // averageAge = parseInt(total/3);
 
     alert("Average Komodo Dragon Age = " + averageAge);
 }
@@ -72,4 +73,19 @@ function timeAndDate()
 
     let fullTimeDate = "Today is " + hour + ":" + minute + dayOrNight + " on " + dayOfTheWeek[day] + ", " + date + " " + monthName[monthNumber] + " " + year;
     document.getElementById("timeoutput").innerHTML = fullTimeDate;
+}
+
+function dragonFoodCost()
+{
+    var numberDragons = prompt("Enter the number of Komodo Dragons"); 
+    numberDragons = parseFloat(numberDragons);
+
+    var foodPerDragon = prompt("Enter the number of pounds of food each Komodo Dragon needs"); 
+    // foodPerDragon = parseFloat(foodPerDragon);
+
+    var costPerPound = prompt("Enter the price of a pound of Komodo Dragon food"); 
+    // costPerPound = parseFloat(costPerPound);
+
+    var totalCost = numberDragons * foodPerDragon * costPerPound;  
+    alert("Cos of Komodo Dragon Food = " + totalCost); 
 }
