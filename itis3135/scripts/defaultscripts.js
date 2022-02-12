@@ -29,16 +29,19 @@ function aveageDragonAge()
     var total = 0; 
 
     entry = prompt("Enter Komodo Dragon Age 1"); 
+    entry = parseInt(entry);
     var size1 = entry; 
     total = total + size1; 
     entry = prompt("Enter Komodo Dragon Age 2"); 
+    entry = parseInt(entry);
     var size2 = entry; 
     total = total + size2; 
     entry = prompt("Enter Komodo Dragon Age 3"); 
+    entry = parseInt(entry);
     var size3 = entry; 
     total = total + size3; 
     
-    averageAge = (total/3);
+    averageAge = parseInt(total/3);
     alert("Average Komodo Dragon Age = " + averageAge);
 }
 
