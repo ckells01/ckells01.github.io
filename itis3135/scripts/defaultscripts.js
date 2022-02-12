@@ -97,17 +97,17 @@ function aveageDragonSizeInches()
 
     entry = prompt("Enter Komodo Dragon 1's size in inches"); 
     var size1 = entry; 
-    total = total + size1; 
+    // total = total + size1; 
     entry = prompt("Enter Komodo Dragon 2's size in inches"); 
     var size2 = entry; 
-    total = total + size2; 
+    // total = total + size2; 
     entry = prompt("Enter Komodo Dragon 3's size in inches"); 
     var size3 = entry; 
-    total = total + size3;
+    // total = total + size3;
     entry = prompt("Enter Komodo Dragon 4's size in inches"); 
     var size4 = entry; 
-    total = total + size4; 
+    total = size1 + size2 + size3 + size4; 
     
-    averageSizeInches = (total/4);
+    averageSizeInches = total/4;
     alert("Average Komodo Dragon Size = " + total + " Inches");
 }
