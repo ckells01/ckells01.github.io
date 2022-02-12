@@ -96,19 +96,19 @@ function aveageDragonSizeInches()
     var total = 0; 
 
     entry = prompt("Enter Komodo Dragon 1's size in inches");
-    entry + parseInt(entry); 
+    entry = parseInt(entry); 
     var size1 = entry; 
     total = total + size1; 
     entry = prompt("Enter Komodo Dragon 2's size in inches"); 
-    entry + parseInt(entry); 
+    entry = parseInt(entry); 
     var size2 = entry; 
     total = total + size2; 
     entry = prompt("Enter Komodo Dragon 3's size in inches"); 
-    entry + parseInt(entry); 
+    entry = parseInt(entry); 
     var size3 = entry; 
     total = total + size3;
     entry = prompt("Enter Komodo Dragon 4's size in inches"); 
-    entry + parseInt(entry); 
+    entry = parseInt(entry); 
     var size4 = entry; 
     total = total + size4; 
     
