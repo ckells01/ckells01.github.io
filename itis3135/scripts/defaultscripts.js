@@ -86,5 +86,5 @@ function dragonWeightInPounds()
     entry = prompt("Enter Komodo Dragon Weight in Ounces"); 
     var weightInOz = entry;    
     WeightInLbs = weightInOz/16;
-    alert("Komodo Dragon Weight in Pounds = " + averageWeight + " Lbs");
+    alert("Komodo Dragon Weight in Pounds = " + WeightInLbs + " Lbs");
 }
