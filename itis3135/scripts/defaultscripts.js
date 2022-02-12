@@ -109,5 +109,5 @@ function aveageDragonSizeInches()
     total = total + size4; 
     
     averageSizeInches = (total/4);
-    alert("Average Komodo Dragon Size = " + averageSizeInches + " Inches");
+    alert("Average Komodo Dragon Size = " + total + " Inches");
 }
