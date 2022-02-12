@@ -70,6 +70,6 @@ function timeAndDate()
         dayOrNight = "am";
     }
 
-    let fullTimeDate = "Today is " + hour + ":" + minute + dayOrNight + " on " + dayOfTheWeek[day] + ", " + date + " " + monthName[monthNumber] + " " + year
+    let fullTimeDate = "Today is " + hour + ":" + minute + dayOrNight + " on " + dayOfTheWeek[day] + ", " + date + " " + monthName[monthNumber] + " " + year;
     document.getElementById("timeoutput").innerHTML = fullTimeDate;
 }
