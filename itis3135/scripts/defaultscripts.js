@@ -79,3 +79,12 @@ function dragonFoodCost()
     var totalCost = numberDragons * foodPerDragon * costPerPound;  
     alert("Cost of Komodo Dragon Food = $" + totalCost); 
 }
+
+function dragonWeightInPounds()
+{
+    var entry;
+    entry = prompt("Enter Komodo Dragon Weight in Ounces"); 
+    var weightInOz = entry;    
+    WeightInLbs = weightInOz/16;
+    alert("Komodo Dragon Weight in Pounds = " + averageWeight + " Lbs");
+}
