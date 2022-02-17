@@ -57,7 +57,6 @@ function getNumSides() // Take input number from user for number of sides on a p
 
 /**
  * The work submitted here is my work - I have not copied and pasted code into these pages.
- * I have gotten help from these people: Blake - He helped me get my function to call again in the default case in my switch statement when mine had errors after his code was used as an exaple during class
  * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
  * Connor P. Kells
  * February 17, 2022 at ???? 
