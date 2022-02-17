@@ -1,18 +1,13 @@
 var numSides = getNumSides();
 
-/**
-if (entryValidation(numSides)) {
-    alert(getShape(numSides));
-}
-else {
-    numSides = getError();
-}
-*/
-
 function getNumSides() // Take input number from user for number of sides on a polygon
 {
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     // Takes user input and saves it as an int, then returns it
+
+    while (isNaN(sideNumber)) {
+        sideNumber = parseInt(prompt("That is not a number! Please enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
+    }
 
     sideNumber = Math.abs(sideNumber); // Make sides input positive
     sideNumber = Math.round(sideNumber); // Round sides input to nearest int
@@ -61,8 +56,8 @@ function getNumSides() // Take input number from user for number of sides on a p
 
 /**
  * The work submitted here is my work - I have not copied and pasted code into these pages.
- * I have gotten help from these people: ?????
+ * I have gotten help from these people: Blake - He helped me get my function to call again in the default case in my switch statement when mine had errors after his code was used as an exaple during class
  * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
  * Connor P. Kells
- * February ??, 2022 at ???? 
+ * February 17, 2022 at ???? 
  */
