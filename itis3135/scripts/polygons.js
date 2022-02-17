@@ -1,5 +1,8 @@
 function getShape(sides) 
 {
+    sides = Math.abs(sides); // Make sides input positive
+    sides = Math.round(sides); // Round sides input to nearest int
+
     switch (sides) 
     {
         case 0:
