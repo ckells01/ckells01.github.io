@@ -54,7 +54,6 @@ function getNumSides() // Take input number from user for number of sides on a p
             alert("A 10 sided polygon is called a Decagon");
             break;
         default:
-            alert("The Charcoal Komodo Dragon Cannot use that number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!");
             getNumSides();
             // Gives error message when invalid value is entered. Then runs functon again to takes new user input and saves it as an int
     }
