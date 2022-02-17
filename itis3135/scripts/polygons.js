@@ -6,6 +6,7 @@ function validateEntry(sideNumber)
     {
         sideNumber = parseInt(prompt("That is not a number! Please enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     } 
+    return sideNumber;
 }
 
 function getNumSides() // Take input number from user for number of sides on a polygon
@@ -13,12 +14,12 @@ function getNumSides() // Take input number from user for number of sides on a p
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     // Takes user input and saves it as an int, then returns it
 
-    validateEntry(sideNumber); 
+    var validSideNum = validateEntry(sideNumber); 
 
-    sideNumber = Math.abs(sideNumber); // Make sides input positive
-    sideNumber = Math.round(sideNumber); // Round sides input to nearest int
+    sideNumber = Math.abs(validSideNum); // Make sides input positive
+    sideNumber = Math.round(validSideNum); // Round sides input to nearest int
 
-    switch (sideNumber) // Swtich for all side options from 0 to 10
+    switch (validSideNum) // Swtich for all side options from 0 to 10
     {
         case 0:
             alert("A 0 sided polygon does not exsist.");
