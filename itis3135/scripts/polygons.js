@@ -1,3 +1,14 @@
+var numSides = getNumSides();
+
+if (entryValidation(numSides)) 
+{
+    alert(getShape(numSides));
+}
+else 
+{
+    numSides = getError();
+}
+
 function getNumSides() // Take input number from user for number of sides on a polygon
 {
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
@@ -62,3 +73,11 @@ function entryValidation(sides)
         return (sides);
     }
 }
+
+/**
+ * The work submitted here is my work - I have not copied and pasted code into these pages.
+ * I have gotten help from these people: ?????
+ * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+ * Connor P. Kells
+ * February ??, 2022 at ???? 
+ */
