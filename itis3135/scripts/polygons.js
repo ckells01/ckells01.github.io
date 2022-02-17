@@ -1,4 +1,4 @@
-var numSides = getNumSides();
+getNumSides();
 
 function validateEntry(sideNumber) 
 {
