@@ -63,6 +63,9 @@ function getShape(sides) // Calculates the polygon based on the users input
         case 10:
             return "A 10 sided polygon is called a Decagon";
             break;
+        default:
+            return "";
+            break;
     }
 }
 
