@@ -1,9 +1,9 @@
-function getShape(sides) 
+function getShape(sides) // Takes user input for number of sides and calculates what polygon it is
 {
     sides = Math.abs(sides); // Make sides input positive
     sides = Math.round(sides); // Round sides input to nearest int
 
-    switch (sides) 
+    switch (sides) // Swtich for all side options from 0 to 10
     {
         case 0:
             return "A 0 sided polygon does not exsist.";
