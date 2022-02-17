@@ -15,7 +15,6 @@ function getNumSides() // Take input number from user for number of sides on a p
     sideNumber = Math.abs(sideNumber); // Make sides input positive
     sideNumber = Math.round(sideNumber); // Round sides input to nearest int
 
-
     /**
     function numError() // Take input number from user for number of sides on a polygon after giving errormessage
     {
@@ -24,8 +23,6 @@ function getNumSides() // Take input number from user for number of sides on a p
         // Gives error message when invalid value is entered. Then takes user input and saves it as an int, then returns it
     }
     */
-
-
 
     switch (sideNumber) // Swtich for all side options from 0 to 10
     {
