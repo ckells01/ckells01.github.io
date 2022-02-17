@@ -61,7 +61,7 @@ function getNumSides() // Take input number from user for number of sides on a p
             break;
         default:
             alert("The Charcoal Komodo Dragon Cannot use that number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!");
-
+            getNumSides;
             break;
     }
 }
