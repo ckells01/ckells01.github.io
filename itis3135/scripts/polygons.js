@@ -1,9 +1,11 @@
 function getNumSides() // Take input number from user for number of sides on a polygon
 {
-    var sideNumber = prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!");
+    var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
+    return sideNumber;
+    // Takes user input and saves it as an int, then returns it
 }
 
-function getShape(sides) // Calculates the polygon based on the users input 
+function getShape(sides) // Calculates the polygon based on the users input
 {
     sides = Math.abs(sides); // Make sides input positive
     sides = Math.round(sides); // Round sides input to nearest int
