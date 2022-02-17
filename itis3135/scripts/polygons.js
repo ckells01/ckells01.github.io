@@ -55,7 +55,6 @@ function getNumSides() // Take input number from user for number of sides on a p
             break;
         default:
             getNumSides();
-            // Gives error message when invalid value is entered. Then runs functon again to takes new user input and saves it as an int
     }
 }
 
