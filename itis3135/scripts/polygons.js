@@ -5,7 +5,8 @@ function getNumSides() // Take input number from user for number of sides on a p
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     // Takes user input and saves it as an int, then returns it
 
-    while (isNaN(sideNumber)) {
+    while (isNaN(sideNumber)) 
+    {
         sideNumber = parseInt(prompt("That is not a number! Please enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     }
 
