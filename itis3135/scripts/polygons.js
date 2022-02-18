@@ -2,9 +2,9 @@ getNumSides();
 
 function validateEntry(sideNumber) 
 {
-    while (isNaN(sideNumber))
+    while (isNaN(sideNumber) || sideNumber < -10 || sideNumber> 10)
     {
-        sideNumber = parseInt(prompt("That is not a number! Please enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
+        sideNumber = parseInt(prompt("That is not a valid number! Please enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     } 
     sideNumber = Math.abs(validSideNum); // Make sides input positive
     sideNumber = Math.round(validSideNum); // Round sides input to nearest int
@@ -16,51 +16,54 @@ function getNumSides() // Take input number from user for number of sides on a p
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
     // Takes user input and saves it as an int, then returns it
 
-    var validSideNum = validateEntry(sideNumber);
+    validateEntry(sideNumber);
+    polygonName(sideNumber);
+
 }
 
-function polygonName() 
+function polygonName(sides) 
 {
     var polygonName;
-    switch (validSideNum) // Swtich for all side options from 0 to 10
+    switch (sides) // Swtich for all side options from 0 to 10
     {
         case 0:
-            polygonName= "No such thing";
+            polygonName = "No such thing";
             break;
         case 1:
-            polygonName("Henagon");
+            polygonName = "Henagon";
             break;
         case 2:
-            polygonName("A 2 sided polygon is called a Digon");
+            polygonName = "Digon";
             break;
         case 3:
-            polygonName("A 3 sided polygon is called a Trigon");
+            polygonName = "Trigon";
             break;
         case 4:
-            polygonName("A 4 sided polygon is called a Tetragon");
+            polygonName = "Tetragon";
             break;
         case 5:
-            polygonName("A 5 sided polygon is called a Pentagon");
+            polygonName = "Pentagon";
             break;
         case 6:
-            polygonName("A 6 sided polygon is called a Hexagon");
+            polygonName = "Hexagon";
             break;
         case 7:
-            polygonName("A 7 sided polygon is called a Heptagon");
+            polygonName = "Heptagon";
             break;
         case 8:
-            polygonName("An 8 sided polygon is called a Octagon");
+            polygonName = "Octagon";
             break;
         case 9:
-            polygonName("A 9 sided polygon is called a Nonagon");
+            polygonName = "Nonagon";
             break;
         case 10:
-            polygonName("A 10 sided polygon is called a Decagon");
+            polygonName = "Decagon";
             break;
         default:
             alert("The Charcoal Komodo Dragon Cannot use that number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!");
             getNumSides();
     }
+    return polygonName;
 }
 
 /**
