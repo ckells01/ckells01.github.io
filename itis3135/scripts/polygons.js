@@ -69,7 +69,7 @@ getNumSides(); // Call function
 
 /**
  * The work submitted here is my work - I have not copied and pasted code into these pages.
- * I have gotten help from these people: Worked with Blake to get defualt case working, got help with using functions from the professor 
+ * I have gotten help from these people: Worked with Blake to get  default  case working, got help with using functions from the professor 
  * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
  * Connor P. Kells
  * February 18, 2022 at 3:20
