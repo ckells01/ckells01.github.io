@@ -5,7 +5,7 @@ function getNumSides() // Take input number from user for number of sides on a p
 
     var validatedSides = validateEntry(sideNumber);
     var result = polygonName(validatedSides);
-    alert("The polygon is a " + result);
+    alert(result);
 
 }
 
