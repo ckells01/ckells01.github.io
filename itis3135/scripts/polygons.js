@@ -1,4 +1,4 @@
-getNumSides();
+
 
 function getNumSides() // Take input number from user for number of sides on a polygon
 {
@@ -11,7 +11,7 @@ function getNumSides() // Take input number from user for number of sides on a p
 
 }
 
-
+getNumSides();
 
 function validateEntry(sideNumber) 
 {
