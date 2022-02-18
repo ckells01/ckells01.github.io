@@ -1,15 +1,15 @@
 function getNumSides() // Take input number from user for number of sides on a polygon
 {
     var sideNumber = parseInt(prompt("The Charcoal Komodo Dragon wants your number! Enter a number from 0 to 10 and the dragon will tell you what a polygon with that many sides is called!"));
-    // Takes user input and saves it as an int, then returns it
+    // Takes user input and saves it as an var
 
-    var validatedSides = validateEntry(sideNumber);
-    var result = polygonName(validatedSides);
-    alert(result);
+    var validatedSides = validateEntry(sideNumber); // Calls function to valiadte input
+    var result = polygonName(validatedSides); // Calls function to find name based on input
+    alert(result); // Alert with name
 
 }
 
-function validateEntry(sideNumber) 
+function validateEntry(sideNumber) // Validates user input
 {
     while (isNaN(sideNumber) || sideNumber < -10 || sideNumber> 10)
     {
@@ -20,7 +20,7 @@ function validateEntry(sideNumber)
     return sideNumber;
 }
 
-function polygonName(sides) 
+function polygonName(sides) // Finds name based on user input
 {
     var polygonName;
     switch (sides) // Swtich for all side options from 0 to 10
@@ -65,10 +65,11 @@ function polygonName(sides)
     return polygonName;
 }
 
-getNumSides();
+getNumSides(); // Call function
 
 /**
  * The work submitted here is my work - I have not copied and pasted code into these pages.
+ * I have gotten help from these people: Worked with Blake to get defualt case working, got help with using functions from the professor 
  * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
  * Connor P. Kells
  * February 17, 2022 at ???? 
