@@ -72,5 +72,5 @@ getNumSides(); // Call function
  * I have gotten help from these people: Worked with Blake to get defualt case working, got help with using functions from the professor 
  * And these sites: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
  * Connor P. Kells
- * February 17, 2022 at ???? 
+ * February 18, 2022 at 3:20
  */
