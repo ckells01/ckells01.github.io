@@ -9,7 +9,7 @@ function add ()
     alert(num1 + " + " + num2 + " = " + result); 
 }
 
-function sub (num1, num2)
+function sub ()
 {
     var num1 = prompt("Enter the first number to subtract"); 
     num1 = parseFloat(num1);
@@ -19,7 +19,7 @@ function sub (num1, num2)
     alert(num1 + " - " + num2 + " = " + result);
 }
 
-function mul (num1, num2)
+function mul ()
 {
     var num1 = prompt("Enter the first number to multiply"); 
     num1 = parseFloat(num1);
@@ -29,7 +29,7 @@ function mul (num1, num2)
     alert(num1 + " * " + num2 + " = " + result);
 }
 
-function div (num1, num2)
+function div ()
 {
     var num1 = prompt("Enter the first number to divide"); 
     num1 = parseFloat(num1);
