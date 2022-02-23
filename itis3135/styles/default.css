@@ -123,5 +123,6 @@ th
 {
   background-color: rgb(161, 90, 90);
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 /**Not sure how to make buttons be in a grind that looks like a calculator**/
