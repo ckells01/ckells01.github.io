@@ -56,20 +56,16 @@ window.onload = function () {
             }
 
             if (
-                action === 'add' ||
-                action === 'subtract' ||
-                action === 'multiply' ||
-                action === 'divide'
+                action === 'add' || action === 'subtract' ||
+                action === 'multiply' || action === 'divide'
             ) {
                 const firstValue = calculator.dataset.firstValue
                 const operator = calculator.dataset.operator
                 const secondValue = displayedNum
 
                 if (
-                    firstValue &&
-                    operator &&
-                    previousKeyType !== 'operator' &&
-                    previousKeyType !== 'calculate'
+                    firstValue && operator &&
+                    previousKeyType !== 'operator' && previousKeyType !== 'calculate'
                 ) {
                     const calcValue = calculate(firstValue, operator, secondValue)
                     display.textContent = calcValue
