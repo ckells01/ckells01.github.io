@@ -26,4 +26,6 @@ function displayResults()
 function displaySalary()
 {
     
+    
+
 }
