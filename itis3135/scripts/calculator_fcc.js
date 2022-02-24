@@ -1,3 +1,19 @@
+const calculate = (n1, operator, n2) => {
+    let result = ''
+
+    if (operator === 'add') {
+        result = n1 + n2
+    } else if (operator === 'subtract') {
+        result = n1 - n2
+    } else if (operator === 'multiply') {
+        result = n1 * n2
+    } else if (operator === 'divide') {
+        result = n1 / n2
+    }
+
+    return result
+}
+
 const calculator = document.querySelector(".calculator")
 const keys = calculator.querySelector(".calculator__keys")
 
@@ -27,6 +43,8 @@ keys.addEventListener("click", e => {
             key.classList.add('is-depressed')
             // Add custom attribute
             calculator.dataset.previousKeyType = 'operator'
+            calculator.dataset.firstValue = displayedNum
+            calculator.dataset.operator = action
         }
 
         if (action === 'decimal') {
@@ -38,7 +56,10 @@ keys.addEventListener("click", e => {
         }
 
         if (action === 'calculate') {
-            console.log('equal key!')
+            const firstValue = calculator.dataset.firstValue
+            const operator = calculator.dataset.operator
+            const secondValue = displayedNum
+            display.textContent = calculate(firstValue, operator, secondValue)
         }
 
 
