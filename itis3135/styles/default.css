@@ -125,3 +125,101 @@ th
   display: grid;
 }
 /**Not sure how to make buttons be in a grind that looks like a calculator**/
+
+/** css for calc fcc*/
+.calculatorbuttons{
+
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+  background-color:#dfbdfa;
+  border-radius:6px;
+  border:1px solid #c584f3;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:28px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #e33282;
+}
+.myButton:hover {
+  background-color:#bc80ea;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+
+}
+
+.container {
+max-width: 50em;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.container > p {
+text-align: center;
+}
+
+.calculator {
+border-radius: 12px;
+box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+max-width: 50em;
+overflow: hidden;
+}
+
+.calculator__display {
+background-color: grey;
+color: #fff;
+font-size: 5em;
+padding: 0.5em 0.75em;
+text-align: right;
+}
+
+.calculator__keys {
+background-color: #999;
+display: grid;
+grid-gap: 1px;
+grid-template-columns: repeat(4, 1fr);
+font-size: 1.75em;
+}
+
+.calculator__keys > * {
+font-size: 1.75em;
+background-color: #fff;
+padding: 0.5em 1.25em;
+position: relative;
+text-align: center;
+}
+
+.calculator__keys > *:active::before,
+.calculator__keys > .is-depressed::before {
+background-color: rgba(0, 0, 0, 0.2);
+bottom: 0;
+box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+content: "";
+left: 0;
+opacity: 0.3;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 1;
+}
+
+.key--operator {
+background-color: #eee;
+}
+
+.key--equal {
+background-image: linear-gradient(to bottom, pink, pink);
+grid-column: -2;
+grid-row: 2 / span 4;
+}
+p{
+  font-size: xx-large;
+}
