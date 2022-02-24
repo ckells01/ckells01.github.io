@@ -1,5 +1,5 @@
 const calculate = (n1, operator, n2) => {
-    let result = ""
+    let result = ''
 
     if (operator === "add") {
         result = parseFloat(n1) + parseFloat(n2)
@@ -15,7 +15,7 @@ const calculate = (n1, operator, n2) => {
 }
 
 const calculator = document.querySelector(".calculator")
-const display = calculator.querySelector(".calculator__display")
+const display = calculator.querySelector('.calculator__display')
 const keys = calculator.querySelector(".calculator__keys")
 
 keys.addEventListener("click", e => {
