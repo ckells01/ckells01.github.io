@@ -1,4 +1,7 @@
-/**Functions to do math with alerts/prompts*/
+/**Functions to do math with alerts/prompts
+ * Unable to get thr number buttons to send data or appear on a calcscreens, so using alerts. 
+ * Will update if we learn how to do it in class before it is due.
+*/
 function add ()
 {
     var num1 = prompt("Enter the first number to add"); 
@@ -35,6 +38,6 @@ function div ()
     num1 = parseFloat(num1);
     var num2 = prompt("Enter the second number to divide"); 
     num2 = parseFloat(num2); 
-    var result = num1 + num2; 
+    var result = num1 / num2; 
     alert(num1 + " / " + num2 + " = " + result);
 }
