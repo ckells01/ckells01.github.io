@@ -10,6 +10,11 @@ function addSalary()
     if(NaN(enteredSalary) || enteredSalary == "" ) 
     {
         alert("Please enter a valid salary");
+        enteredSalary = "";
+    }
+    else
+    {
+        enteredSalary = parseFloat(enteredSalary);
     }
 
 }
