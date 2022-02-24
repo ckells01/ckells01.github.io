@@ -17,11 +17,8 @@ keys.addEventListener("click", e => {
         }
 
         if (
-            action === 'add' ||
-            action === 'subtract' ||
-            action === 'multiply' ||
-            action === 'divide'
-        ) {
+            action === 'add' || action === 'subtract' ||
+            action === 'multiply' || action === 'divide') {
             console.log('operator key!')
         }
 
