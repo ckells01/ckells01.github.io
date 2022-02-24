@@ -39,6 +39,10 @@ window.onload = function () {
                 }
             }
 
+            if (action === "decimal") {
+                display.textContent = displayedNum + "."
+            }
+
             if (
                 action === "add" || action === "subtract" ||
                 action === "multiply" || action === "divide") {
@@ -47,10 +51,6 @@ window.onload = function () {
                 calculator.dataset.previousKeyType = "operator"
                 calculator.dataset.firstValue = displayedNum
                 calculator.dataset.operator = action
-            }
-
-            if (action === "decimal") {
-                display.textContent = displayedNum + "."
             }
 
             if (action === "clear") {
