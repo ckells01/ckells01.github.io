@@ -1,11 +1,11 @@
-var employee = [];
-var salary = [];
-
 window.onload = function () {
     document.getElementById("add_salary").onclick = addSalary;
     document.getElementById("display_results").onclick = displayResults;
     document.getElementById("display_salary").onclick = displaySalary;
 };
+
+var employee = [];
+var salary = [];
 
 function addSalary() {   
 
