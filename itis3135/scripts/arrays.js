@@ -1,6 +1,12 @@
 var name = [];
 var salary = [];
 
+window.onload = function () {
+    document.getElementById("add_salary").onclick = addSalary;
+    document.getElementById("display_results").onclick = displayResults;
+    document.getElementById("display_salary").onclick = displaySalary;
+};
+
 function addSalary() {
 
     var enteredSalary;
@@ -34,6 +40,7 @@ function displayResults() {
     alert("Average Salary: $" + average);
 
 }
+
 function displaySalary() {
 
 
