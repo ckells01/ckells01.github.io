@@ -1,4 +1,4 @@
-// Loads functions for each button and loads ability to start user on employee selection
+// Loads functions for each button and starts user on employee selection
 window.onload = function () {
     document.getElementById("add_salary").onclick = addSalary;
     document.getElementById("display_results").onclick = displayResults;
@@ -16,10 +16,10 @@ function addSalary() {
     var enteredName = document.getElementById("salary").value;
 
     // Check to make sure inputted salary is valid. Must be a number and must not be left empty
-    if (NaN(enteredSalary) || enteredSalary == "") {
+    if ((NaN(enteredSalary) == true) || enteredSalary == "") {
         alert("Please enter a valid salary");
         enteredSalary = ""; // Clears invalid input
-        $("employee").focus(); // Starts user on employee selection when pages loads
+        $("employee").focus(); // Starts user on employee selection
     }
     else {
         // If valid salary input, add salary and employye to arrays
