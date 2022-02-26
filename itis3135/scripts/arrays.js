@@ -1,4 +1,4 @@
-var name = [];
+var employee = [];
 var salary = [];
 
 window.onload = function () {
@@ -7,10 +7,10 @@ window.onload = function () {
     document.getElementById("display_salary").onclick = displaySalary;
 };
 
-function addSalary() {
+function addSalary() {   
 
-    var enteredSalary;
-    var enteredName;
+    var enteredSalary = document.getElementById("employee").value;
+    var enteredName = document.getElementById("salary").value;
 
     if (NaN(enteredSalary) || enteredSalary == "") {
         alert("Please enter a valid salary");
