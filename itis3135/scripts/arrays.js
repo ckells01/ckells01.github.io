@@ -18,6 +18,8 @@ function addSalary() {
     }
     else {
         enteredSalary = parseFloat(enteredSalary);
+        employee.push(enteredName);
+        salary.push(enteredSalary);
     }
 
 }
