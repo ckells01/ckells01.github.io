@@ -29,7 +29,7 @@ function addSalary() {
         // Clears enterybox so new salary can be entered after adding previously enter salary to array
         // and redirects user to employee selection so a new employee and salary can be added
         $("salary").innerHTML = "" ;
-        $("names").focus();
+        $("employee").focus();
     }
 
 }
@@ -40,7 +40,7 @@ function displayResults() {
     var average = 0;
     var sum = 0;
     // Used to find highest salary
-    var nameWithHighestNum;
+    var employeeWithHighestNum;
     var maxNum;
 
     // Loop through array of salaries to add all the salaries and 
@@ -50,10 +50,25 @@ function displayResults() {
     }
     average = (sum / salary.length);
     alert("Average Salary: $" + average);
+
+    // Loop through array of salaries to find highest salary
+    for (i = 0; i <= salary.length; i++) {
+        // If entered salary is > than the current max number, make that salary the new max number
+        if (salary[i] > maxNum) {
+            maxNum = salary[i]; // Set max number to new highest salary
+            employeeWithHighestNum = i; // Set the employee with highest salary variable to the new employee with the higest salary
+        }
+    }
+
+    // Find way to print out message with average salary and the employee with the highest salary and their salary
+    // Results: Average salary is $Average. The highest salary is employeeWithHighestNum's, at $maxNum.
+    var htmlOutput = "";
+
 }
 
 function displaySalary() {
 
-
-
+    // Find way to display table with each employyee and their salary
+    var htmlOutput = "";
+    
 }
