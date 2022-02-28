@@ -22,7 +22,7 @@ function addSalary() {
         $("employee").focus(); // Starts user on employee selection
     }
     else {
-        // If valid salary input, add salary and employye to arrays
+        // If valid salary input, add salary and employee to arrays
         enteredSalary = parseFloat(enteredSalary);
         employee.push(enteredName);
         salary.push(enteredSalary);
