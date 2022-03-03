@@ -16,12 +16,14 @@ function addSalary() {
     var enteredName = document.getElementById("salary").value;
 
     // Check to make sure inputted salary is valid. Must be a number and must not be left empty
-    if ((isNaN(enteredSalary) == true) || enteredSalary == "") {
+    if (isNaN(enteredSalary) || enteredSalary === "") 
+    {
         alert("Please enter a valid salary");
         enteredSalary = ""; // Clears invalid input
         $("employee").focus(); // Starts user on employee selection
     }
-    else {
+    else 
+    {
         // If valid salary input, add salary and employee to arrays
         enteredSalary = parseFloat(enteredSalary);
         alert(enteredSalary);
