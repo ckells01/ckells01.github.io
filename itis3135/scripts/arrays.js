@@ -62,13 +62,14 @@ function displayResults() {
 
     // Find way to print out message with average salary and the employee with the highest salary and their salary
     // Results: Average salary is $Average. The highest salary is employeeWithHighestNum's, at $maxNum.
-    var htmlOutput = "";
+    var htmlOutput = document.getElementById("results");
+
 
 }
 
 function displaySalary() {
 
     // Find way to display table with each employyee and their salary
-    var htmlOutput = "";
+    var htmlOutput = document.getElementById("results_table");
     
 }
