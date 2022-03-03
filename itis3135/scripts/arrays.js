@@ -62,7 +62,7 @@ function displayResults() {
 
     // Find way to print out message with average salary and the employee with the highest salary and their salary
     // Results: Average salary is $Average. The highest salary is employeeWithHighestNum's, at $maxNum.
-    var htmlOutput = document.getElementById("results");
+    var htmlOutput = document.getElementById("results").innerHTML = "Average salary is $" + Average + " The highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
 
 
 }
