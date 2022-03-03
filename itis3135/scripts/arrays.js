@@ -24,6 +24,7 @@ function addSalary() {
     else {
         // If valid salary input, add salary and employee to arrays
         enteredSalary = parseFloat(enteredSalary);
+        alert(enteredSalary);
         employee.push(enteredName);
         salary.push(enteredSalary);
         // Clears enterybox so new salary can be entered after adding previously enter salary to array
@@ -61,7 +62,7 @@ function displayResults() {
     }
 
     // Prints results onto webpage
-    document.getElementById("results").innerHTML = "Average salary is $" + Average + " The highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
+    document.getElementById("results").innerHTML = "Average salary is $" + average + " The highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
 
 }
 
