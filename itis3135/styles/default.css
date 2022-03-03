@@ -77,6 +77,17 @@ figure
   text-align: left;
 }
 
+figure table 
+{
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+figure figcaption
+{
+  ttext-align: center;
+}
+
 .table_centered 
 {
   margin-left: auto;
