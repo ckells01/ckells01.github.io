@@ -68,6 +68,6 @@ function displayResults() {
 function displaySalary() {
 
     // Find way to display table with each employyee and their salary
-    var htmlOutput = document.getElementById("results_table");
+    document.getElementById("results_table");
     
 }
