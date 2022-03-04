@@ -31,7 +31,7 @@ function addSalary() {
         salary.push(enteredSalary);
         // Clears enterybox so new salary can be entered after adding previously enter salary to array
         // and redirects user to employee selection so a new employee and salary can be added
-        document.getElementById("salary").innerHTML = "";
+        document.getElementById("salary").value = "";
         document.getElementById("employee").focus();
     }
 
