@@ -20,7 +20,7 @@ function addSalary() {
     {
         alert("Please enter a valid salary");
         enteredSalary = ""; // Clears invalid input
-        $("employee").focus(); // Starts user on employee selection
+        document.getElementById("employee").focus(); // Starts user on employee selection
     }
     else 
     {
@@ -31,8 +31,8 @@ function addSalary() {
         salary.push(enteredSalary);
         // Clears enterybox so new salary can be entered after adding previously enter salary to array
         // and redirects user to employee selection so a new employee and salary can be added
-        $("salary").innerHTML = "" ;
-        $("employee").focus();
+        document.getElementById("salary").innerHTML = "";
+        document.getElementById("employee").focus();
     }
 
 }
