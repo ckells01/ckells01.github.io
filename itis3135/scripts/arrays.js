@@ -12,7 +12,7 @@ var salary = [];
 function addSalary() {   
 
     // Get inputted employyee and their salary
-    var enteredSalary = document.getElementById("employee").value;
+    var enteredSalary = parseFloat(document.getElementById("employee").value);
     var enteredName = document.getElementById("salary").value;
 
     // Check to make sure inputted salary is valid. Must be a number and must not be left empty
