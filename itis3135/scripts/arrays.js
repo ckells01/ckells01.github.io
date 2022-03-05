@@ -26,7 +26,6 @@ function addSalary() {
     {
         // If valid salary input, add salary and employee to arrays
         enteredSalary = parseFloat(enteredSalary);
-        alert(enteredSalary);
         employee.push(enteredName);
         salary.push(enteredSalary);
         // Clears enterybox so new salary can be entered after adding previously enter salary to array
