@@ -69,7 +69,8 @@ function displayResults() {
 
 function displaySalary() {
 
-    var table = "<table><tr><th>Employee</th><th>Salary</th></tr>"
+    var table;
+    table = "<table><tr><th>Employee</th><th>Salary</th></tr>"
     for(i = 0; i <= salary.length; i++){
         html += "<tr><td>" + employee[i] + "</td><td>" + salary[i] + "</td></tr>";
     }
