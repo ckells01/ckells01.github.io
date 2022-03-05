@@ -245,3 +245,8 @@ background-image: linear-gradient(to bottom, pink, pink);
 grid-column: -2;
 grid-row: 2 / span 4;
 }
+
+.results_table
+{
+  text-align: left;
+}
