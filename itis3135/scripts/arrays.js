@@ -69,7 +69,11 @@ function displayResults() {
 
 function displaySalary() {
 
-    // Find way to display table with each employyee and their salary
-    document.getElementById("results_table");
+    var table = "<table><tr><th>Employee</th><th>Salary</th></tr>"
+    for(i = 0; i <= salary.length; i++){
+        html += "<tr><td>" + employee[i] + "</td><td>" + salary[i] + "</td></tr>";
+    }
+    table += "</table>";
+    document.getElementById("results_table").innerHTML = table;
     
 }
