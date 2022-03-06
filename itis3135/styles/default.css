@@ -249,15 +249,14 @@ grid-row: 2 / span 4;
 .array_buttons
 {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .array_boxes
 {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center
+  margin-left: auto;
+  margin-right: auto;
 }
