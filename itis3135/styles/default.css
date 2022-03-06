@@ -249,4 +249,6 @@ grid-row: 2 / span 4;
 .array_form
 {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
