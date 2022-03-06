@@ -47,14 +47,14 @@ function displayResults() {
 
     // Loop through array of salaries to add all the salaries and 
     // then divide by the number of saleries to find average salary
-    for (i = 0; i <= salary.length; i++) {
+    for (i = 0; i < salary.length; i++) {
         sum += salary[i];
     }
     average = (sum / salary.length);
     alert("Average Salary: $" + average);
 
     // Loop through array of salaries to find highest salary
-    for (i = 0; i <= salary.length; i++) {
+    for (i = 0; i < salary.length; i++) {
         // If entered salary is > than the current max number, make that salary the new max number
         if (salary[i] > maxNum) {
             maxNum = salary[i]; // Set max number to new highest salary
