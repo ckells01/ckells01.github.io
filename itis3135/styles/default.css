@@ -246,7 +246,15 @@ grid-column: -2;
 grid-row: 2 / span 4;
 }
 
-.array_form
+.array_buttons
+{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.array_boxes
 {
   text-align: center;
   display: flex;
