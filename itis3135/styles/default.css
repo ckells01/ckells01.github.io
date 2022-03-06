@@ -250,3 +250,8 @@ grid-row: 2 / span 4;
 {
   margin-left: 100px !important;
 }
+
+.array_form
+{
+  text-align: center;
+}
