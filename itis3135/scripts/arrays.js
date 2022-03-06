@@ -68,12 +68,15 @@ function displayResults() {
 
 function displaySalary() {
 
+    // Create table
     var table;
     table = "<table><tr><th>Employee</th><th>Salary</th></tr>"
+    // Loop to add table rows for each employee
     for (i = 0; i < salary.length; i++){
         table += "<tr><td>" + employee[i] + "</td><td>" + salary[i] + "</td></tr>";
     }
-    table += "</table>";
+    table += "</table>"; // End table
+    // Prints results onto webpage
     document.getElementById("results_table").innerHTML = table;
     
 }
