@@ -51,7 +51,6 @@ function displayResults() {
         sum += salary[i];
     }
     average = (sum / salary.length);
-    alert("Average Salary: $" + average.toFixed(2));
 
     // Loop through array of salaries to find highest salary
     for (i = 0; i < salary.length; i++) {
@@ -63,7 +62,7 @@ function displayResults() {
     }
 
     // Prints results onto webpage
-    document.getElementById("results").innerHTML = "The average salary is $" + average + " and the highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
+    document.getElementById("results").innerHTML = "The average salary is $" + average.toFixed(2) + " and the highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum.toFixed(2);
 
 }
 
