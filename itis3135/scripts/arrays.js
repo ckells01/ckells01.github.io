@@ -51,7 +51,7 @@ function displayResults() {
         sum += salary[i];
     }
     average = (sum / salary.length);
-    alert("Average Salary: $" + average);
+    alert("Average Salary: $" + average.toFixed(2));
 
     // Loop through array of salaries to find highest salary
     for (i = 0; i < salary.length; i++) {
