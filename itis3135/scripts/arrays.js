@@ -63,7 +63,7 @@ function displayResults() {
     }
 
     // Prints results onto webpage
-    document.getElementById("results").innerHTML = "Average salary is $" + average + ". The highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
+    document.getElementById("results").innerHTML = "The average salary is $" + average + " and the highest salary is " + employeeWithHighestNum + "'s, at $" + maxNum;
 
 }
 
