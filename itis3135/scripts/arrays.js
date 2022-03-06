@@ -58,7 +58,7 @@ function displayResults() {
         // If entered salary is > than the current max number, make that salary the new max number
         if (salary[i] > maxNum) {
             maxNum = salary[i]; // Set max number to new highest salary
-            employeeWithHighestNum = i; // Set the employee with highest salary variable to the new employee with the higest salary
+            employeeWithHighestNum = employee[i]; // Set the employee with highest salary variable to the new employee with the higest salary
         }
     }
 
