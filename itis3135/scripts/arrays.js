@@ -42,8 +42,8 @@ function displayResults() {
     var average = 0;
     var sum = 0;
     // Used to find highest salary
-    var employeeWithHighestNum;
-    var maxNum;
+    var employeeWithHighestNum = "";
+    var maxNum = 0;
 
     // Loop through array of salaries to add all the salaries and 
     // then divide by the number of saleries to find average salary
