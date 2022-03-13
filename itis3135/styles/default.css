@@ -260,3 +260,10 @@ grid-row: 2 / span 4;
   margin-left: auto;
   margin-right: auto;
 }
+
+.site_map
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
