@@ -12,13 +12,13 @@ $(document).ready(() => {
     let imageCounter = 0;
     setInterval(() => {
         $("#caption").fadeOut(1000);
-        $("#slide").fadeOut(1000);
-        () => {
-            imageCounter = (imageCounter + 1) % imageCashe.length;
-            const nextImage = imageCashe[imageCounter];
-            $("#slide").attr("src", nextImage.src).fadeIn(1000);
-            $("#caption").text(nextImage.title).fadeIn(1000);
-        });
+        $("#slide").fadeOut(1000,
+            () => {
+                imageCounter = (imageCounter + 1) % imageCashe.length;
+                const nextImage = imageCashe[imageCounter];
+                $("#slide").attr("src", nextImage.src).fadeIn(1000);
+                $("#caption").text(nextImage.title).fadeIn(1000);
+            });
     },
         3000);
 });
