@@ -1,3 +1,4 @@
+
 "use strict";
 $(document).ready(() => {
 
@@ -21,4 +22,14 @@ $(document).ready(() => {
             });
     },
         3000);
+}); 
+
+/**
+$("#slide").attr("src","second.jpg");
+
+$('#slide').on({
+    'click': function(){
+        $('#slide').attr('src','second.jpg');
+    }
 });
+*/
