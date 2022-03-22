@@ -1,4 +1,6 @@
 
+const $ = selctor => document.querySelector(selctor);
+
 "use strict";
 $(document).ready(() => {
 
