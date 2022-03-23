@@ -1,3 +1,4 @@
+/**
 function openTab(event, tabNum) {
 
     var i;
@@ -18,3 +19,10 @@ function openTab(event, tabNum) {
 }
 
 document.getElementById("defaultOpen").click();
+*/
+
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+  }

@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>
         Connor Kells || ITIS 3135 || Midterm
     </title>
@@ -12,8 +12,10 @@
             font-family: Arial;
         }
 
-        h1, h2, h3, footer
-        {
+        h1,
+        h2,
+        h3,
+        footer {
             text-align: center;
         }
 
@@ -38,7 +40,7 @@
 
         .tabButton:hover {
             background-color: rgb(168, 164, 164);
-            
+
         }
 
         .tabButton.active {
@@ -66,7 +68,7 @@
             Music and Concerts
         </h2>
 
-        <section class="tab">
+        <!--section class="tab">
             <button class="tabButton" onclick="openTab(event, '1')">1</button>
             <button class="tabButton" onclick="openTab(event, '2')">2</button>
             <button class="tabButton" onclick="openTab(event, '3')">3</button>
@@ -101,13 +103,26 @@
         <section id="6" class="tabcontent">
             <h3>6</h3>
             <p>6</p>
-        </section>
+        </section-->
+
+
+        <div id="Page1">
+            Content of page 1
+            <a href="#" onclick="show('Page2','Page1');">Show page 2</a>
+        </div>
+
+        <div id="Page2" style="display:none">
+            Content of page 2
+            <a href="#" onclick="show('Page1','Page2');">Show page 1</a>
+        </div>
+
+
 
     </main>
 
     <footer>
         <br />
-        Created by <a href="/kells-designs.com/index.html">Kells Designs Inc</a> &copy;2022.<br/>
+        Created by <a href="/kells-designs.com/index.html">Kells Designs Inc</a> &copy;2022.<br />
         <br />
         <p>
             <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none;"
