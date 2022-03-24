@@ -25,7 +25,7 @@ document.getElementById("defaultOpen").click();
 
 function genreResponse() {
 
-    var response = document.getElementById("genre_response").value;
+    var response = document.getElementById("genre_response");
     if (response == "yes") {
         document.getElementById("genre_msg").innerHTML = "Thats awesome! I hope you enjoyed!";
     }
