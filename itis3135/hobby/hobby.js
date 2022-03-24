@@ -27,7 +27,7 @@ function genreResponse() {
 
     var response = document.getElementById("genre_response");
     if (response == "yes") {
-        document.getElementById("genre_msg").innerHTML = "Thats awesome! I hope you enjoyed!";
+        document.getElementById("yes").innerHTML = "Thats awesome! I hope you enjoyed!";
     }
     if (response == "no") {
         document.getElementById("genre_msg").innerHTML = "You should go listen! I hope you enjoy!";
