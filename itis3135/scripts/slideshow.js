@@ -1,4 +1,4 @@
-
+window.onload = function () {
 //const $ = selctor => document.querySelector(selctor);
 /** 
 "use strict";
@@ -49,3 +49,4 @@ $(document).ready(() => {
             });
     }, 3000);
 });
+}
