@@ -21,7 +21,7 @@ function openTab(event, tabNum) {
     event.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
+//document.getElementById("defaultOpen").click();
 
 function genreResponse() {
 
