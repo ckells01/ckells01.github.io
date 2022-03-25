@@ -11,3 +11,14 @@ header, footer
 nav{
     text-align: center;
 }
+
+footer 
+{
+    margin-bottom: 40px;
+}
+
+body
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
