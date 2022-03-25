@@ -23,3 +23,15 @@ body
     margin-right: 100px;
     background-color: grey;
 }
+
+a 
+{
+  color: rgb(226, 82, 82);
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: rgb(105, 9, 14);
+  text-decoration: underline;
+}
