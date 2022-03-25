@@ -14,7 +14,10 @@
     <div data-include="components/header.html"></div>
     <main style="text-align: center;">
         <h2>Dog Slideshow</h2>
-        
+
+        <!--This way is from the book and wors, but it changes slides automatically
+        and cannot get arrows to switch slides to work with this way>
+
         <h3 id="caption">White Dog</h3>
         <img id="slide" src="images/dogpic1.jpg" alt="">
         <div id="slides">
@@ -24,7 +27,83 @@
             <img src="images/dogpic4.jpg" alt="Shepard Dog">
             <img src="images/dogpic5.jpg" alt="Bread Dog">
             <img src="images/dogpic6.jpg" alt="Brown Dog">
+        </div-->
+
+
+
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/dogpic1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/dogpic2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/dogpic3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/dogpic4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/dogpic5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/dogpic6.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic1.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic2.jpg" style="width:100%" onclick="currentSlide(2)"
+                        alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic3.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic4.jpg" style="width:100%" onclick="currentSlide(4)"
+                        alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic5.jpg" style="width:100%" onclick="currentSlide(5)"
+                        alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dogpic6.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="Snowy Mountains">
+                </div>
+            </div>
         </div>
+
+
 
     </main>
     <div data-include="components\footer.html"></div>
