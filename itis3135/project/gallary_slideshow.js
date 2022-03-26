@@ -1,3 +1,4 @@
+window.onload = function () {
 "use strict";
 $(document).ready(() => {
 
