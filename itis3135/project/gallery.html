@@ -6,7 +6,7 @@
   <title>
     Chris Kells || Metal Archive || Gallery
   </title>
-  <!--script src="jquery-3.6.0.js"></script-->
+  <script src="jquery-3.6.0.js"></script>
   <script src="scripts/gallary_slideshow.js"></script>
   <link href="project.css" type="text/css" rel="stylesheet">
 </head>
@@ -18,10 +18,25 @@
       Gallery
     </h2>
 
-    <!-- Container for the image gallery -->
-    <div class="container">
+    <h3 id="caption">Heavy Metal Forces Volume 0</h3>
+    <img id="slide" src="images/hmf0.jpg" alt="">
+    <div id="slides">
+      <img src="images/hmf0.jpg" alt="Heavy Metal Forces Volume 0">
+      <img src="images/hmf1.jpg" alt="Heavy Metal Forces Volume 1">
+      <img src="images/hmf2.jpg" alt="Heavy Metal Forces Volume 2">
+      <img src="images/hmf3.jpg" alt="Heavy Metal Forces Volume 3">
+      <img src="images/hmf4.jpg" alt="Heavy Metal Forces Volume 4">
+      <img src="images/hmf5.jpg" alt="Heavy Metal Forces Volume 5">
+      <img src="images/hmf6.jpg" alt="Heavy Metal Forces Volume 6">
+      <img src="images/hmf7.jpg" alt="Heavy Metal Forces Volume 7">
+      <img src="images/hmf8.gif" alt="Heavy Metal Forces Volume 8">
+      <img src="images/hmf9.jpg" alt="Heavy Metal Forces Volume 9">
+      <img src="images/hmf10.jpg" alt="Heavy Metal Forces Volume 10">
+      </div-->
 
-      <!-- Full-width images with number text -->
+
+      <!--div class="container">
+
       <div class="mySlides">
         <div class="numbertext">1 / 10</div>
         <img src="images/hmf0.jpg">
@@ -72,17 +87,14 @@
         <img src="images/hmf9.jpg">
       </div>
 
-      <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-      <!-- Image text -->
       <div class="caption-container">
         <p id="caption"></p>
       </div>
 
-      <!-- Thumbnail images -->
-      <!--div class="row">
+      <div class="row">
         <div class="column">
           <img class="demo cursor" src="images/hmf0.jpg" style="width:100%" onclick="currentSlide(1)"
             alt="Heavy Metal Forces Volume 0">
@@ -123,8 +135,8 @@
           <img class="demo cursor" src="images/hmf9.jpg" style="width:100%" onclick="currentSlide(6)"
             alt="Heavy Metal Forces Volume 9">
         </div>
-      </div-->
-    </div>
+      </div>
+    </div-->
 
   </main>
   <div data-include="components\projectfooter.html"></div>
