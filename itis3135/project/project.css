@@ -36,6 +36,11 @@ a:hover
   text-decoration: underline;
 }
 
+.top10pic
+{
+    text-align: left;
+}
+
 /*Slideshow Formatting*/
 #slides img{
     display: none;
