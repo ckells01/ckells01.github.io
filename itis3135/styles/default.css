@@ -302,18 +302,18 @@ grid-row: 2 / span 4;
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 40% !important;
+  width: auto !important;
+  padding: 16px !important;
+  margin-top: -50px !important;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+  border-radius: 0 3px 3px 0 !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
 }
 
 /* Position the "next button" to the right */
