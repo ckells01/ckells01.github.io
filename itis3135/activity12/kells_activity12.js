@@ -11,6 +11,7 @@ $(document).ready(function() {
         captions: true, 
         speed: 3000,
         pager: true,
-        pagerType: short
+        pagerType: 'short',
+        pagetSelector: 'id_pager'
     });
 });
