@@ -41,6 +41,11 @@ a:hover
     text-align: left;
 }
 
+figcaption
+{
+    text-align: center;
+}
+
 /*Slideshow Formatting*/
 #slides img{
     display: none;
