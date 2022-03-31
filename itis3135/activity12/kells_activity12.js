@@ -3,7 +3,7 @@ $(document).ready(function() {
         auto: true,
         minSlides: 1, // 2 to 1
         maxSlides: 1, // 2 to 1
-        slideWidth: 300,
+        slideWidth: 500, // 300 to 500
         slideMargin: 20,
         // changes
         randomStart : true,
