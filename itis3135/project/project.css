@@ -46,6 +46,11 @@ figcaption
     text-align: center;
 }
 
+.home_fig
+{
+    text-align: center;
+}
+
 /*Slideshow Formatting*/
 #slides img{
     display: none;
