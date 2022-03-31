@@ -7,6 +7,8 @@ $(document).ready(function() {
         slideMargin: 20,
         // changes
         randomStart : true,
-        moveSlides: 1
+        moveSlides: 1,
+        captions: true, 
+        speed: 3000
     });
 });
