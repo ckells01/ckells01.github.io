@@ -9,6 +9,8 @@ $(document).ready(function() {
         randomStart : true,
         moveSlides: 1,
         captions: true, 
-        speed: 3000
+        speed: 3000,
+        pager: true,
+        pagerType: short
     });
 });
