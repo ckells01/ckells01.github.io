@@ -3,6 +3,6 @@
 $(document).ready(function() {
     $("#accordion").accordion( {
         active: false,
-        collaples: true
+        collapsible: true
     });
 });
