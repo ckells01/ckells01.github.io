@@ -1,35 +1,6 @@
-/**
-$(document).ready(function () {
-        $("#image_list a").each(function () {
-
-                var imageURL = $(this).attr("href");
-                var caption = $(this).attr("title");
-
-                // preload the image for each link
-                var galleryImage = newImage();
-                galleryImage.src = imageURL;
-
-                // set up the event handlers for each link
-                $(this).click(function (evt) {
-                        $("#caption, #image").slideUp(2000,
-                                function () {
-                                        $("#image").attr("src", imageURL);
-                                        $("#caption").text(caption);
-                                        $("#caption. #image").slideDown(2000);
-                                });
-
-                        // cancel the default action of each link
-                        evt.preventDefault();
-                });
-
-        });
-        // move the focus to the first link
-        $("li:first-child a").focus();
-}); // end ready
-*/
-
 $(document).ready(function () {
 
+        // Make vars so it is easier to use "href" and "title"
         var imageURL = $(this).attr("href");
         var caption = $(this).attr("title");
 
@@ -40,11 +11,14 @@ $(document).ready(function () {
         });
 
         // set up event handlers for links  
-        $("#image_list a").click(function (evt) {
+        $("#image_list a").click( evt => {
+                // find out what image was clicked
                 $("#image").attr("src", imageURL);
+                // swap caption
                 $("#caption").fadeOut(1000, function () {
                         $("#caption").text(caption).fadeIn(1000);
                 });
+                // swap image
                 $("#image").fadeOut(1000, function () {
                         $("#image").attr("src", imageURL).fadeIn(1000);
                 });
