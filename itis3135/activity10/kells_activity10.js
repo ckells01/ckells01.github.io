@@ -10,7 +10,8 @@ $(document).ready(function () {
                 galleryImage.src = imageURL
         });
 
-        // set up event handlers for links  
+        // set up event handlers for links
+        // swaps image and caption by fading every 1 second  
         $("#image_list a").click(evt => {
                 // find out what image was clicked
                 $("#image").attr("src", imageURL);
