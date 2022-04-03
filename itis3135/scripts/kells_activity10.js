@@ -14,7 +14,6 @@ $(document).ready(function () {
         $("#image_list a").click(evt => {
                 // find out what image was clicked
                 $("#image").attr("src", imageURL);
-                var caption = $(this).attr("title");
                 // swap caption
                 var caption = $(this).attr("title");
                 $("#caption").fadeOut(1000, function () {
