@@ -31,7 +31,7 @@ $(document).ready(function () {
                 const link = evt.currentTarget;
                 $("#image").attr("src", link.href);
                 $("#caption").text(link.title);
-
+                evt.preventDefault();
 
 
         }); // end click
