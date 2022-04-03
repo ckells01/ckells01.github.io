@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
-        // Make vars so it is easier to use "href" and "title"
+        // Make var so it is easier to use "href"
         var imageURL = $(this).attr("href");
-        var caption = $(this).attr("title");
 
         // preload images
         $("#image_list a").each(function () {
