@@ -13,6 +13,7 @@ $(document).ready(function () {
         // swaps image and caption by fading every 1 second  
         $("#image_list a").click(evt => {
                 // find out what image was clicked
+                var imageURL = $(this).attr("href");
                 $("#image").attr("src", imageURL);
                 // swap caption
                 var caption = $(this).attr("title");
