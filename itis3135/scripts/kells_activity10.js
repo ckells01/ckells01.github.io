@@ -2,14 +2,16 @@
 $(document).ready(function () {
 
         // preload images
-        $("#image_list a").each(function () {
+        $("#image_list a").eacg( (index, link) => { //.each(function () {    
                 var galleryImage = new Image();
-                galleryImage.src = $(this).attr("href")
+               // galleryImage.src = $(this).attr("href")
+                 galleryImage.src = link.href
         });
 
         // set up event handlers for links
         // swaps image and caption by fading every 1 second  
         $("#image_list a").click(function (evt) {
+                /**
                 // cancel the default action of the link
                 evt.preventDefault();
                 // find out what image was clicked
@@ -24,6 +26,13 @@ $(document).ready(function () {
                 $("#image").fadeOut(1000, function () {
                         $("#image").attr("src", imageURL).fadeIn(1000);
                 });
+                */
+
+                const link = evt.currentTarget;
+                $("#image").attr("src", link.href);
+                $("#caption").text(link.title);
+
+
 
         }); // end click
 
