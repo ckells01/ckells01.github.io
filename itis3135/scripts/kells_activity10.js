@@ -1,4 +1,3 @@
-/**
 $(document).ready(function () {
 
         // Make vars so it is easier to use "href" and "title"
@@ -16,7 +15,9 @@ $(document).ready(function () {
         $("#image_list a").click(evt => {
                 // find out what image was clicked
                 $("#image").attr("src", imageURL);
+                var caption = $(this).attr("title");
                 // swap caption
+                var caption = $(this).attr("title");
                 $("#caption").fadeOut(1000, function () {
                         $("#caption").text(caption).fadeIn(1000);
                 });
@@ -32,8 +33,8 @@ $(document).ready(function () {
         $("li:first-child a").focus();
 
 }); // end ready
-*/
 
+/** 
 $(document).ready(function ()
 {
     // preload images
@@ -63,3 +64,4 @@ $(document).ready(function ()
     // move focus to first thumbnail
     $("li:first-child a").focus();
 }); // end ready
+*/
