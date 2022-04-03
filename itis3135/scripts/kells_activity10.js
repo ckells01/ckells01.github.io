@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
         // Make var so it is easier to use "href"
-        var imageURL = $(this).attr("href");
+        //var imageURL = $(this).attr("href");
 
         // preload images
         $("#image_list a").each(function () {
