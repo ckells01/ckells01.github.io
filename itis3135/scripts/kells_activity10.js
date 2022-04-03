@@ -1,4 +1,3 @@
-/**
 $(document).ready(function () {
 
         // Make var so it is easier to use "href"
@@ -7,7 +6,7 @@ $(document).ready(function () {
         // preload images
         $("#image_list a").each(function () {
                 var galleryImage = new Image();
-                galleryImage.src = imageURL
+                galleryImage.src = $(this).attr("href")
         });
 
         // set up event handlers for links
@@ -33,8 +32,8 @@ $(document).ready(function () {
         $("li:first-child a").focus();
 
 }); // end ready
-*/
 
+/**
 $(document).ready(function ()
 {
     // preload images
@@ -64,3 +63,4 @@ $(document).ready(function ()
     // move focus to first thumbnail
     $("li:first-child a").focus();
 }); // end ready
+*/
