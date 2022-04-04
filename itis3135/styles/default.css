@@ -379,7 +379,8 @@ grid-row: 2 / span 4;
   text-align: center;
 }
 
-.image_swap h1, img
+h1, h2, ul, p, img
 {
-  text-align: center;
+	margin: 0;
+	padding: 0;
 }
