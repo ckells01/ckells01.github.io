@@ -376,4 +376,10 @@ grid-row: 2 / span 4;
 {
   padding-right: 10px;
 	display: inline;
+  text-align: center;
+}
+
+.image_swap h1, img
+{
+  text-align: center;
 }
