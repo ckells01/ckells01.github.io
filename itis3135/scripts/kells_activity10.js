@@ -11,11 +11,9 @@ $(document).ready(function () {
         // swaps image and caption by fading every 1 second  
         $("#image_list a").click(function (evt) {
 
+                // variables so I can just call the var inside the function to make it cleaner
                 var imageURL = $(this).attr("href");
                 var imageCaption = $(this).attr("title");
-
-                // find out what image was clicked
-                // $("#image").attr("src", imageURL);
 
                 // swap caption
                 $("#caption").fadeOut(1000, function () {
