@@ -385,3 +385,10 @@ grid-row: 2 / span 4;
 	padding: 0;
   text-align: center;
 }
+
+.review_fig
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
