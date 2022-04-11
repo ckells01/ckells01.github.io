@@ -392,3 +392,8 @@ grid-row: 2 / span 4;
   margin-right: auto;
   text-align: center;
 }
+
+.peer_review
+{
+  text-align: left;
+}
