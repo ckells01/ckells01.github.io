@@ -406,7 +406,6 @@ grid-row: 2 / span 4;
 
 footer p a
 {
-  text-align: center !important;
-  align-items: center !important;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
