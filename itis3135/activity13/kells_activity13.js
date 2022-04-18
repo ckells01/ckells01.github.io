@@ -12,7 +12,7 @@ $(document).ready(function () {
         dataType: "json", // change to json
         success: function (data) {
             $("#team").html("");
-            $.each(data, function () { // change to support json
+            $.each(data, function () { // change to support json, from slides
                 $.each(this, function (key, value) {
                     $("#team").append(
                         "Name: " + value.name + "<br>" +
