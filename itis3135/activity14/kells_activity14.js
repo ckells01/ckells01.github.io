@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // list of speakers
     $("#nav_list li").click(function () {
+        // find title of json file for speaker
         let title = $(this).children("a").attr("title");
         // find json file
         $.get(title + ".json", function (data, status) {
