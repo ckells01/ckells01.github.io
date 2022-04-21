@@ -6,9 +6,9 @@ $(document).ready(function () {
             // Add to "faculty" div in html
             $("#faculty").append(
                 "<img>" + value.image + "</img>" +
-                "<h2>" + value.full_name + "</h1>" +
-                "<h3>" + value.department + "</h1>" +
-                "<p>" + value.bio + "</h1>"
+                "<h2>" + value.full_name + "</h2>" +
+                "<h3>" + value.department + "</h3>" +
+                "<p>" + value.bio + "</p>"
             );
         });
     });
