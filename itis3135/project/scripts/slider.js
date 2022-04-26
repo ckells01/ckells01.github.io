@@ -1,7 +1,7 @@
-$(document).ready(function(){
-    $('.bxslider').bxSlider({
-      mode: 'fade',
-      captions: true,
-      slideWidth: 300
+$(document).ready(function () {
+    $('.slider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        slideWidth: 300
     });
-  });
+});
