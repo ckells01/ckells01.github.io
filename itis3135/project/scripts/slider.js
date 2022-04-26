@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.slider').bxSlider({
+    $('.bxslider').bxSlider({
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 300,
