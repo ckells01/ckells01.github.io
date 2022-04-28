@@ -51,7 +51,9 @@ figcaption
     text-align: center;
 }
 
-/*Slideshow Formatting*/
-#slides img{
-    display: none;
+.bxslider
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
