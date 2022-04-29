@@ -53,5 +53,10 @@ figcaption
 
 .bx-wrapper
 {
-margin: auto;
+    margin: auto;
+}
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
 }
